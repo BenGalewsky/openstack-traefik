@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  traefik:
+  - apiVersion: v1
+    appVersion: 1.5.3
+    created: 2019-01-07T16:12:03.473423-06:00
+    description: A Traefik based Kubernetes ingress controller with Let's Encrypt
+      support
+    digest: 5fb693360c680ed1ec9eab9320d57fd7d7f66420cb934c67bca65306a91452ab
+    engine: gotpl
+    home: http://traefik.io/
+    icon: http://traefik.io/traefik.logo.png
+    keywords:
+    - traefik
+    - ingress
+    - acme
+    - letsencrypt
+    maintainers:
+    - email: kent.rancourt@microsoft.com
+      name: krancour
+    name: traefik
+    sources:
+    - https://github.com/containous/traefik
+    - https://github.com/krancour/charts/tree/master/traefik
+    urls:
+    - https://github.com/BenGalewsky/openstack-traefik.git/traefik-1.24.1.tgz
+    version: 1.24.1
+generated: 2019-01-07T16:12:03.470369-06:00
